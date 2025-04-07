@@ -2,7 +2,7 @@
 
 This is a simple use-case of using **Squid Proxy** inside Docker to whitelist specific domains and restrict internet access. It’s ideal for DevOps use cases such as controlling egress traffic, simulating restricted networks, or adding an extra layer of security in development environments.
 
-Eg: when i NOT added particular dns as whitelisted, the access is restricted.
+Eg: when NOT added particular dns as whitelisted, the access is restricted.
 
 ![access-denied](./images/non-whitelisted-site.png)
 
