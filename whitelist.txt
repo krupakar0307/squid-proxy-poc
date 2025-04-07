@@ -1,0 +1,4 @@
+.*\.example\.com$
+^api\.test\.org$
+krupakar.in
+debuide.com

@@ -1,0 +1,13 @@
+# squid-proxy-poc/docker-compose.yml
+
+version: "3.9"
+services:
+  squid:
+    build: .
+    container_name: squid-proxy
+    ports:
+      - "3128:3128"
+    volumes:
+      - ./squid.conf:/etc/squid/squid.conf
+      - ./whitelist.txt:/etc/squid/whitelist.txt
+
